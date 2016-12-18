@@ -1,0 +1,79 @@
+/* cabin-regular - latin */
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: url('cabin/cabin-v10-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Cabin'), local('Cabin-Regular'),
+       url('cabin/cabin-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('cabin/cabin-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('cabin/cabin-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('cabin/cabin-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('cabin/cabin-v10-latin-regular.svg#Cabin') format('svg'); /* Legacy iOS */
+}
+/* cabin-600 - latin */
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 600;
+  src: url('cabin/cabin-v10-latin-600.eot'); /* IE9 Compat Modes */
+  src: local('Cabin SemiBold'), local('Cabin-SemiBold'),
+       url('cabin/cabin-v10-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('cabin/cabin-v10-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('cabin/cabin-v10-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('cabin/cabin-v10-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('cabin/cabin-v10-latin-600.svg#Cabin') format('svg'); /* Legacy iOS */
+}
+/* cabin-700 - latin */
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  src: url('cabin/cabin-v10-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Cabin Bold'), local('Cabin-Bold'),
+       url('cabin/cabin-v10-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('cabin/cabin-v10-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('cabin/cabin-v10-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('cabin/cabin-v10-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('cabin/cabin-v10-latin-700.svg#Cabin') format('svg'); /* Legacy iOS */
+}
+
+/* old-standard-tt-regular - latin */
+@font-face {
+  font-family: 'Old Standard TT';
+  font-style: normal;
+  font-weight: 400;
+  src: url('Old-Standard-TTold-standard-tt-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Old Standard TT Regular'), local('OldStandardTT-Regular'),
+       url('Old-Standard-TTold-standard-tt-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Old-Standard-TTold-standard-tt-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('Old-Standard-TTold-standard-tt-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('Old-Standard-TTold-standard-tt-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('Old-Standard-TTold-standard-tt-v7-latin-regular.svg#OldStandardTT') format('svg'); /* Legacy iOS */
+}
+/* old-standard-tt-italic - latin */
+@font-face {
+  font-family: 'Old Standard TT';
+  font-style: italic;
+  font-weight: 400;
+  src: url('Old-Standard-TTold-standard-tt-v7-latin-italic.eot'); /* IE9 Compat Modes */
+  src: local('Old Standard TT Italic'), local('OldStandardTT-Italic'),
+       url('Old-Standard-TTold-standard-tt-v7-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Old-Standard-TTold-standard-tt-v7-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('Old-Standard-TTold-standard-tt-v7-latin-italic.woff') format('woff'), /* Modern Browsers */
+       url('Old-Standard-TTold-standard-tt-v7-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('Old-Standard-TTold-standard-tt-v7-latin-italic.svg#OldStandardTT') format('svg'); /* Legacy iOS */
+}
+/* old-standard-tt-700 - latin */
+@font-face {
+  font-family: 'Old Standard TT';
+  font-style: normal;
+  font-weight: 700;
+  src: url('Old-Standard-TTold-standard-tt-v7-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Old Standard TT Bold'), local('OldStandardTT-Bold'),
+       url('Old-Standard-TTold-standard-tt-v7-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Old-Standard-TTold-standard-tt-v7-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('Old-Standard-TTold-standard-tt-v7-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('Old-Standard-TTold-standard-tt-v7-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('Old-Standard-TTold-standard-tt-v7-latin-700.svg#OldStandardTT') format('svg'); /* Legacy iOS */
+}
