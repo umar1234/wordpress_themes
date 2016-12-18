@@ -23,17 +23,33 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'first_theme' ); ?></a>
 
-	// code sets up inline header image:
 	<?php if ( get_header_image() ) : ?>	
 		<header id="masthead" class="site-header" style="background-image:url(<?php header_image(); ?>)" role="banner">
 	<?php else: ?>
 		<header id="masthead" class="site-header" role="banner">
+	<?php endif; // End header image check. ?>	
+	
+			
+<?php // Display site icon or first letter as logo ?>
+		<div class="site-logo">
+			<?php $site_title = get_bloginfo( 'name' ); ?>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="">
+				<div class="screen-reader-text">
+					<?php printf( esc_html__('Go to the home page of %1$s', 'popperscores'), $site_title ); ?>
+				</div>
+				<?php
+				if ( has_custom_logo() ) {  // check if has custom logo, else output the first letter
+					the_custom_logo();
+				} else { ?>
+					<div class="site-firstletter" aria-hidden="true">
+						<?php echo substr($site_title, 0, 1); ?>
+					</div>
+				<?php } ?>
 			</a>
-		<?php endif; // End header image check. ?>	
-		
-		<div class="site-branding">
+		</div>
+			
+			
+		<div class="site-branding <?php if (is_singular()) { echo ' screen-reader-text'; } ?>">
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
